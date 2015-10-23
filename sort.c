@@ -48,7 +48,6 @@ main(int argc, char *argv[])
 	case 'h':
 	    highvalue = atoi(optarg);
 	    break;
-	    // output file name 
 	case 'o':
 	    outFile = strdup(optarg);
 	    break;
